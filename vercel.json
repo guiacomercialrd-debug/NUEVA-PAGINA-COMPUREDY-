@@ -1,0 +1,14 @@
+{
+  "cleanUrls": false,
+  "trailingSlash": false,
+  "headers": [
+    {
+      "source": "/src/css/(.*)",
+      "headers": [{ "key": "Content-Type", "value": "text/css; charset=utf-8" }]
+    },
+    {
+      "source": "/src/js/(.*)",
+      "headers": [{ "key": "Content-Type", "value": "application/javascript; charset=utf-8" }]
+    }
+  ]
+}
